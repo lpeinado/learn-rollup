@@ -1,8 +1,12 @@
 {
+  "name": "rollup-tutorial",
+  "version": "1.0.0",
   "scripts": {
-    "build":"rollup --config"
+    "build": "rollup --config"
   },
   "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-terser": "^0.4.1",
     "rollup": "^3.21.3"
   }
 }
