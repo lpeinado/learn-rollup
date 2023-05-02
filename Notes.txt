@@ -1,0 +1,3 @@
+Rollup config changed extension to mjs as the prompt says
+If format is cjs then the build module uses module.exports
+If format is es then the build module is export { main as default };
